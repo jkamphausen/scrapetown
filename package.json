@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node -r esm index.js"
+    "dev": "node -r esm index.js",
+    "dev:watch": "nodemon -r esm index.js"
   },
   "author": "J. Kamphausen",
   "license": "ISC",
